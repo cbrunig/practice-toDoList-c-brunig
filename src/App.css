@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background: linear-gradient(30deg, violet, indigo, blue, green, yellow, orange, red);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #head {
@@ -16,4 +16,10 @@
   margin: auto;
   text-align: center;
   padding: 20px;
+  background-color: white;
+  transition: background-color 0.5s;
+}
+
+#list:hover {
+  background-color: black;
 }

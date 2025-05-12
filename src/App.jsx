@@ -3,12 +3,14 @@ import ToDoList from './components/ToDoList'
 import Header from './components/Header'
 
 function App() {
-
-
   return (
       <div>
-        <Header id='head'></Header>
-        <ToDoList id='list'></ToDoList>
+        <h1 id='head'>
+          <Header></Header>
+        </h1>
+        <p id='list'>
+          <ToDoList></ToDoList>
+        </p>
       </div>
   )
 }
